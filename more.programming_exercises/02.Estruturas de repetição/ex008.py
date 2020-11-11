@@ -1,0 +1,8 @@
+# Utilizando estruturas de repetição escreva um programa que mostre os resultados da tabuada de multiplicação dos números entre 1 e 10, como segue.
+
+number = 1
+
+while number != 11:
+    for n in range(1,11):
+        print(f'{number} * {n} = {number * n}')
+    number += 1
